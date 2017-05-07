@@ -75,6 +75,43 @@
             top: 8px;
             background-color: #E4E4E4;
         }
+        #heading-div {
+            width: 100%;
+            height: 57px;
+            background-color: #BB1919;
+        }
+        #news-div {
+            width: 150px;
+            height: 30px;
+            background-color: #BB1919;
+            position: relative;
+            top: 8px;
+            left: 12px;
+         }
+         #news {
+             font-family: Helmet, Freesans, Helvetica, Arial, sans-serif;
+             font-size: 250%;
+             color: #FFFFFF;
+         }
+         #catagories {
+            width: 100%;
+            height: 40px;
+            background-color: #A91717;
+         }
+         #catagory {
+             width: 68px;
+             height: 40px;
+             background-color: #A91717;
+             border-right: 1px;
+             border-color: #D1E2FF;
+         }
+         .cat-font {
+             color: white;
+             font-size: 15px;
+             float: left;
+             position: relative;
+             padding: 10px;
+         }
     </style>
 </head>
 <div id="top-bar">
@@ -107,7 +144,7 @@
     </div>
     <div class="topbar">
         <span class="font margins">More</span>
-        <img id="more-img" src="images/more-img.png" alt="">
+        <input type="image" id="more-img" src="images/more-img.png" alt="">
     </div>
     <div class="search-bar">
         <input id="input" type="text" name="Search" value="search">
@@ -116,7 +153,16 @@
         <input type="image" src="images/search.png" alt="">
     </div>
 </div>
-
+<div id="heading-div">
+    <div id="news-div">
+        <span id="news">NEWS</span>
+    </div>
+</div>
+<div id="catagories">
+    <div id="catagory">
+        <span class="cat-font">Home</span>
+    </div>
+</div>
 
 </body>
 
