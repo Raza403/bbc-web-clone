@@ -100,14 +100,15 @@
             margin-top: 13px;
             padding: 0px 12px;
         }
-        .more-div {
+        #more-div {
             float: left;
             height: 40px;
             background-color: #A91717;
         }
         #more-div-img {
-            margin-top: 10px;
-            float: left;
+            position: relative;
+            top: 10px;
+            left: 10px;
         }
         .clear {
             clear: both;
@@ -200,12 +201,11 @@
 
         <a href="" class="cat-font">Health</a>
 
-
-        <span class="cat-font">More</span>
-        <span id="more-div-img">
-        <input type="image" src="images/scr.png">
-       </span>
-
+    </div>
+    <div id="more-div">
+        <a href="" class="cat-font">More</a>
+        <input type="image" src="images/scr.png" id="more-div-img">
     </div>
 </div>
 </body>
+</html>
