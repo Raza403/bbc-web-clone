@@ -167,7 +167,7 @@
         #message  {
             padding: 0px 5px;
         }
-        hr {
+        #first-hr {
             position: relative;
             top: 190px;
             left: -830px;
@@ -190,6 +190,21 @@
         #clock {
             width: 15px;
             height: 10px;
+        }
+        #newslinks a {
+            text-decoration: none;
+            font-size: 15px;
+            color: #404040;
+        }
+        #newslinks a:hover {
+            color: #1896e9;
+        }
+        #second-hr {
+            color: #404040;
+            margin-left: -230px;
+           position: relative;
+           top: -50px;
+            width: 730px;
         }
     </style>
 </head>
@@ -288,13 +303,23 @@
     <p id="article-summary"><img src="images/clock.png" id="clock"> 9 May 2017 <a href="">Technology</a><span id="message"><img src="images/message.png" alt=""></span> 173</p>
     </div>
 </div>
-<hr>
+<hr id="first-hr">
 <div class="clear">
     
 </div>
 <div id="amazon-img-container">
     <img src="images/amazon.png" id="amazon-img" alt="">
 </div>
+<div id="newslinks">
+    <p><a href="">Global manhunt for WannaCry creators</a></p>
+    <p><a href="">Your questions on the hack answered</a></p>
+    <p><a href="">How to protect your self online</a></p>
+    <p><a href="">Should you pay the WannaCry ransom?</a></p>
+</div>
+<div id="clear">
+    
+</div>
+<hr id="second-hr">
 </div>
 
 </body>
