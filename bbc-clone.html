@@ -144,7 +144,7 @@
             float: left;
         }
 
-        h2 {
+        #first-h2 {
             font-weight: normal;
             margin: 05px 30px;
             font-size: 18px;
@@ -153,7 +153,7 @@
             width: 95px;
         }
 
-        h2 a {
+        #first-h2 a {
             text-decoration: none;
             color: #404040;
         }
@@ -250,6 +250,30 @@
             width: 250px;
             border-left: 1px solid #404040;
         }
+        .article a {
+            text-decoration: none;
+            font-family: Helvetica, Arial, sans-serif;
+            color: #404040;
+        }
+        .article a:hover {
+            color: #1896e9;
+        }
+        #second-h2 {
+            font-weight: normal;
+            margin: 0px 10px;
+            font-size: 22px;
+            font-family: Helvetica, Arial, sans-serif;
+            width: 95px;
+        }
+
+        #second-h2 a {
+            text-decoration: none;
+            color: #404040;
+        }
+        .ytube-vid {
+            margin: 10 10 10 -15;
+            float: left;
+        }
     </style>
 </head>
 <div id="top-bar">
@@ -340,10 +364,10 @@
     <div class="clear">
     </div>
     <div id="article-container">
-        <h2><a href=""> Technology </a></h2>
+        <h2 id="first-h2"><a href=""> Technology </a></h2>
         <h3><a href=""> Can Amazon's assistant stay on top?</a></h3>
-        <div id="article">
-            <p>The retail giant is set to announce its next Alexa assistant-will it reveal strengths or shortcomings?</p>
+        <div class="article">
+            <p><a href="">The retail giant is set to announce its next Alexa assistant-will it reveal strengths or shortcomings?</a></p>
             <p id="article-summary"><img src="images/clock.png" id="clock"> 9 May 2017 <a href="">Technology</a><span id="message"><img src="images/message.png" alt=""></span>                173</p>
         </div>
     </div>
@@ -370,7 +394,9 @@
     
 </div>
 <div id="right-side-container">
-    
+    <h2 id="second-h2"><a href="">Watch/Listen</a></h2>
+    <p class="article" style="font-weight: bold"><iframe width="110" height="80" src="https://www.youtube.com/embed/dTQ73lt5B4k" class="ytube-vid" frameborder="0" allowfullscreen></iframe><a href="">Is this the world's oldest youtube star?</a></p>
+    <p class="article" style="font-weight: bold"><iframe width="110" height="80" src="https://www.youtube.com/embed/rP9t12xD1gk" class="ytube-vid" frameborder="0" allowfullscreen></iframe><a href="">Watch what happens when ransomeware hits</a></p>
 </div>
 
 </body>
